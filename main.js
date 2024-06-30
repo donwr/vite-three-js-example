@@ -131,6 +131,7 @@ gltfLoader.load(
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableZoom = false;
 controls.enablePan = false;
+controls.enableRotate = false; // Disable rotation
 controls.autoRotate = true;
 controls.autoRotateSpeed = 2;
 controls.update();
